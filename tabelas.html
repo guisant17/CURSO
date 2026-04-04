@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabelas em HTML</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h2>Produtos</h2>
+<!--    HIERARQUIA DE TABELAS (SIMPLES)
+        TABLE= TABELA
+            TABLE ROW <TR>= LINHA DE TABELA    
+                TABLE HEADER <TH> = cabeçalho de tabela
+                TABLE DATA <TD> = dados de tabela 
+-->
+    
+
+    <table border ="2" width="50%">
+        <tr>
+            <td>Codigo</td>
+            <td>Produto</td>
+            <td>Preço</td>
+        </tr>
+<tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$2.500,00</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>celular</td>
+            <td>R$1.500,00</td>
+        </tr>
+    
+        <tr>
+     <!-- o atributo rowspan serve para agrupar duas ou mais colunas da tabela  -->
+            <td rowspan="2">Desconto</td>
+     <!-- o atributo colspan serve para agrupar duas ou mais linhas da tabela  -->       
+            <td colspan="2">cupom1 - R$15,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">cupom2 - R$10,00</td>
+        </tr>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$ 3.085,00</td>
+            </tr>
+
+     
+    
+    
+    
+    </table>
+
+
+
+
+
+
+</body>
+
+</html>
